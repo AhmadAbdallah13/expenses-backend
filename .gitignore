@@ -131,4 +131,5 @@ dist
 
 # my creds
 .creds.json
+firebase.js
 
