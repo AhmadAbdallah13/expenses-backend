@@ -1,0 +1,40 @@
+### GET EXPENSES
+GET http://localhost:8383/expenses/
+
+### GET AN EXPENSE
+GET http://localhost:8383/expense/-MojuD_gqGFWiYfjEsTx/
+
+### GET THIS MONTH EXPENSES
+GET http://localhost:8383/this-month-expenses/
+
+### DELETE AN EXPENSE
+DELETE http://localhost:8383/expense/id:/
+
+### GET AN CATEGORY
+GET http://localhost:8383/category/-MqJ4b23lvi6sNnIQds8/
+
+### GET AN beneficiary
+GET http://localhost:8383/beneficiary/-MpeuKKNTKhoK-4L3JcM/
+
+### Create An Expense
+POST http://localhost:8383/create-expense/
+Content-Type: application/json
+
+{
+    "amount": "13",
+    "beneficiary": {
+        "id": "-MojtxV5fchGU2oP018k",
+        "name": "Ahmad The Boss"
+    },
+    "category": {
+        "id": "-Moju-zenV8O-PgODNJR",
+        "name": "Football game"
+    },
+    "description": "football game at da3san",
+    "paidFrom": {
+        "id": "-MojHDbKN8xRfWDbKbqk",
+        "name": "Wallet",
+        "ampunt": "40"
+    },
+    "when": "2021-11-17T21:57:31.092Z"
+}
