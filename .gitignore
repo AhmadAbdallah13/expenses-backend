@@ -130,6 +130,5 @@ dist
 .pnp.*
 
 # my creds
-.creds.json
+creds.json
 firebase.js
-
